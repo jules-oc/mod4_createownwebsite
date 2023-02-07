@@ -1,0 +1,24 @@
+:root {
+    height: 100%;
+    background-image: linear-gradient(90deg, white 0%, #FFC5B5 100%);
+}
+
+*[href]{ font-family: comic; }
+
+#pink {
+    background-color: #FFC5B5;
+    padding: 2px;
+    margin: 2px;
+    border-style: solid;
+    border-color: #FFC5B5;
+    border-width: 2px;
+}           
+
+h1, h2 { color: navy; }
+h2~p { font-size: 70%; }
+li { margin-right: 2em; }
+
+footer { font-family: garamond;
+    text-align: right;
+    color: grey;
+}
